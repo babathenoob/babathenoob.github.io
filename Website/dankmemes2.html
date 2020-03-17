@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<title>Dank memes 2</title>
+<link rel="icon" href="images/logo1.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+background: rgb(2,0,36);
+background: -moz-linear-gradient(99deg, rgba(2,0,36,1) 0%, rgba(0,45,34,1) 69%, rgba(2,170,117,1) 100%);
+background: -webkit-linear-gradient(99deg, rgba(2,0,36,1) 0%, rgba(0,45,34,1) 69%, rgba(2,170,117,1) 100%);
+background: linear-gradient(99deg, rgba(2,0,36,1) 0%, rgba(0,45,34,1) 69%, rgba(2,170,117,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#02aa75",GradientType=1);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #000000;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #000000;
+}
+
+li a.active {
+  color: white;
+  background-color: #047A45;
+}
+<!-- !font! -->
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+
+<!-- !no remove! -->
+  .example_a {
+color: #c2c2c2 !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #000000;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.example_a:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+</style>
+<body>
+<img src="images/logo1.png">
+<!-- !Menu html! -->
+<ul>
+  <li><a href="loader2.html">Home</a></li>
+  <li><a href="loader1.html">DM soundboard</a></li>
+  <li><a class="active" href="loader3.html">Dank memes</a></li>
+  <li><a href="comingsoon.html">?</a></li>
+</ul>
+
+<!-- !no remove! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>MEMES!</b></h1>
+  <p><b><marquee>dem memes r gud</marquee></b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">?</button></p>
+</header>
+</div>
+
+<!-- images grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="images/dank1.jpg" style="width:100%">
+    <img src="images/dank2.jpg" style="width:100%">
+    <img src="images/dank3.jpg" style="width:100%">
+    <img src="images/dank4.jpg" style="width:100%">
+    <img src="images/dank5.jpg" style="width:100%">
+    <img src="images/dank6.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="images/dank7.jpg" style="width:100%">
+    <img src="images/dank8.jpg" style="width:100%">
+    <img src="images/dank9.jpg" style="width:100%">
+    <img src="images/dank10.jpg" style="width:100%">
+    <img src="images/dank11.jpg" style="width:100%">
+    <img src="images/dank12.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="images/dank13.jpg" style="width:100%">
+    <img src="images/dank14.jpg" style="width:100%">
+    <img src="images/dank15.jpg" style="width:100%">
+    <img src="images/dank16.jpg" style="width:100%">
+    <img src="images/dank17.jpg" style="width:100%">
+    <img src="images/dank18.jpg" style="width:100%">
+  </div>
+</div>
+
+<!-- footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <p class="w3-medium">Powered by hard work</a></p>
+</footer>
+ 
+<script>
+//grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+</script>
+
+</body>
+</html>
